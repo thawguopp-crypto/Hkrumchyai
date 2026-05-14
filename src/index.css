@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --color-wechat-green: #07C160;
+  --color-wechat-green-dark: #06AD56;
+  --color-wechat-bg: #F3F3F3;
+  --color-wechat-border: #E0E0E0;
+  --color-wechat-text-primary: #1A1A1A;
+  --color-wechat-text-secondary: #999999;
+  --color-wechat-dark: #2E2E2E;
+  --color-wechat-list-bg: #FCFCFC;
+  
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-[#EDEDED] text-wechat-text-primary antialiased;
+  }
+}
+
+.safe-area-bottom {
+  padding-bottom: env(safe-area-inset-bottom);
+}

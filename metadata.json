@@ -1,0 +1,6 @@
+{
+  "name": "HKRUMCHYAI",
+  "description": "A polished real-time messaging and social platform with Chats, Moments, and Contacts, inspired by the WeChat ecosystem.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["Real-time Messaging", "Social Feed", "Presence"]
+}
